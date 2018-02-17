@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <title>Glozzom BS4 Theme</title>
 </head>
 <body>
@@ -40,53 +41,212 @@
   </nav>
 
   <!-- SHOWCASE SLIDER-->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item carousel-image-1 active">
-        <div class="container">
-          <div class="carousel-caption d-none d-sm-block text-right mb-5">
-            <h1 class="display-3">Heading 1</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
-            <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading 1</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
+              <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Heading Two</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Heading Three</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
+              <a href="#" class="btn btn-success btn-lg">Learn more</a>
+            </div>
           </div>
         </div>
       </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
 
-      <div class="carousel-item carousel-image-2">
-        <div class="container">
-          <div class="carousel-caption d-none d-sm-block mb-5">
-            <h1 class="display-3">Heading Two</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
-            <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+  <!-- Home icon section-->
+  <section id="home-icons" class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 md-4 text-center">
+          <i class="fa fa-cog mb-2"></i>
+          <h3>Turning gears</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta obcaecati facere ex optio, cupiditate quis minus enim atque aliquid dolorum.</p>
+        </div>
+        <div class="col-md-4 md-4 text-center">
+          <i class="fa fa-cloud mb-2"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta obcaecati facere ex optio, cupiditate quis minus enim atque aliquid dolorum.</p>
+        </div>
+        <div class="col-md-4 md-4 text-center">
+          <i class="fa fa-cart-plus mb-2"></i>
+          <h3>Making Money</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta obcaecati facere ex optio, cupiditate quis minus enim atque aliquid dolorum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- HOME HEADING SECTION-->
+  <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1>Are yoou ready to get Started</h1>
+              <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tenetur porro minus dignissimos atque explicabo harum natus, tempore maiores! Similique cum, ipsum obcaecati, perspiciatis sequi ducimus. Enim nam dicta, veritatis.</p>
+            </div>
           </div>
         </div>
       </div>
+  </section>
 
-      <div class="carousel-item carousel-image-3">
-        <div class="container">
-          <div class="carousel-caption d-none d-sm-block text-right mb-5">
-            <h1 class="display-3">Heading Three</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In inventore explicabo magni pariatur voluptatem praesentium asperiores dolorem aperiam, quidem odit!</p>
-            <a href="#" class="btn btn-success btn-lg">Learn more</a>
+<!-- INFO SECTION-->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6  align-self-center">
+          <h3>lorem lepsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint necessitatibus ex, repellat quos assumenda, maiores ratione quasi fugiat! Mollitia numquam neque obcaecati repudiandae, minus laborum eos nisi eligendi soluta dolor?</p>
+          <a href="" class="btn btn-outline-danger btn-lg">learn more</a>
+        </div>
+        <div class="col-sm-6">
+          <img src="img/laptop.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/watch?v=N73sDPuxKQI" data-toggle="modal" data-target="#videoModal">
+              <i class="fa fa-play"></i>
+            </a>
+            <h1>See What we DO</h1>
           </div>
         </div>
       </div>
     </div>
-    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
+  </section>
+
+  <!-- Photo gallery-->
+
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <h1 class="text-center">Check out our photos</h1>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/400/400/business/1" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/400/400/business/2" alt="" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/400/400/business/3" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+              <img src="http://lorempixel.com/400/400/business/4" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://lorempixel.com/560/560/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+              <img src="http://lorempixel.com/400/400/business/5" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+              <img src="http://lorempixel.com/400/400/business/6" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER SECTION-->
+  <section id="newletter" class="text-center p-5 bg-inverse text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign up for our newsletter</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, eos voluptatibus libero. Molestiae iste quasi nulla architecto dolores, explicabo asperiores?</p>
+          <form action="" class="form-inline justify-content-center">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" name="" value="" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
+
+            <label for="name"  class="sr-only">Email</label>
+            <input type="text" name="" value="" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright 2017 &copy; Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- MODAL VIDEO-->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" allowfullscreen height="350" width="100%"></iframe>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="js/jquery.min.js" charset="utf-8"></script>
-  <script src="js/bootstrap.min.js" charset="utf-8"></script>
   <script src="js/tether.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
 
 </body>
 </html>
